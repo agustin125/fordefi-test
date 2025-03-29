@@ -1,0 +1,16 @@
+{
+    "name": "fordefi-transfer",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "commonjs",
+    "scripts": {
+        "send": "node index.js"
+    },
+    "keywords": [],
+    "author": "Agustin Chermaz",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "dotenv": "^16.4.7"
+    }
+}
