@@ -29,16 +29,33 @@ Create a .env file in the root directory:
 ```bash
 ACCESS_TOKEN=your_api_user_access_token
 PRIVATE_KEY_PATH=./private.pem
+VAULT_ID=your_vault_id
 ```
 
 Add your private key file as private.pem in the same directory .
 
 Fill in the requestJson object in index.js with your transaction data.
 
+## 🐳 Start  Signer Docker image
+
+
+```bash
+npm run docker
+```
+
+
 ## 🚀 Usage
+
+
+Run using the API:
 
 ```bash
 npm run send
 ```
 
+Run using the provider:
+
+```bash
+npm run send:provider
+```
 

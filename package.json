@@ -4,13 +4,17 @@
     "main": "index.js",
     "type": "commonjs",
     "scripts": {
-        "send": "node index.js"
+        "send": "node index.js",
+        "send:provider": "node send-with-provider.js",
+        "docker": "docker compose run --rm api-signer"
     },
     "keywords": [],
     "author": "Agustin Chermaz",
     "license": "ISC",
     "description": "",
     "dependencies": {
-        "dotenv": "^16.4.7"
+        "@fordefi/web3-provider": "^0.2.5",
+        "dotenv": "^16.4.7",
+        "ethers": "^6.13.5"
     }
 }

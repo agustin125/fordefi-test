@@ -1,0 +1,14 @@
+services:
+  api-signer:
+    image: fordefi.jfrog.io/fordefi/api-signer:latest
+    container_name: fordefi-signer
+    stdin_open: true  
+    tty: true            
+    logging:
+      driver: local       
+    volumes:
+      - vol:/storage     
+
+volumes:
+  vol:
+     external: true
